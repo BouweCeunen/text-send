@@ -12,9 +12,9 @@ Feel free to let me know if something isn't working as it should at bouwe.ceunen
 
 Run this command in your terminal of choice.
 ```sh
-$ python broadcast.py 4090 "custom message"
+$ python broadcast.py 7011 "custom message"
 ```
-This will run the python script and broadcast the custom message to UDP port 4090, which is the same port specified on the Textsend app (can be changed). This port has to be the same on your Textsend app in order to work. Note that anyone in your network can send UDP messages on that specific port and will receive those messages if they are listening in on that port.
+This will run the python script and broadcast the custom message to UDP port 7011, which is the same port specified on the Textsend app (can be changed). This port has to be the same on your Textsend app in order to work. Note that anyone in your network can send UDP messages on that specific port and will receive those messages if they are listening in on that port.
 
 ### Textsend app
 
@@ -24,3 +24,4 @@ https://play.google.com/store/apps/details?id=com.bouweceunen.textsend
 
 [![](http://www.bouweceunen.com/textsend/textsend.png)](http://www.bouweceunen.com/textsend/textsend.png)
 
+[![](http://www.bouweceunen.com/textsend/textsend2.png)](http://www.bouweceunen.com/textsend/textsend2.png)
