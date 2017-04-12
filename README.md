@@ -31,5 +31,3 @@ The Textsend app is needed to send the actual text messages on the phone on whic
 https://play.google.com/store/apps/details?id=com.bouweceunen.textsend
 
 [![](http://www.bouweceunen.com/textsend/textsend.png)](http://www.bouweceunen.com/textsend/textsend.png)
-
-[![](http://www.bouweceunen.com/textsend/textsend2.png)](http://www.bouweceunen.com/textsend/textsend2.png)
