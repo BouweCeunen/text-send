@@ -12,7 +12,7 @@ Feel free to let me know if something isn't working as it should at bouwe.ceunen
 
 ### Get it running (macOS, Windows, Linux)
 
-Run this command in your terminal of choice to send text messages to the registered numbers in the Textsend app.
+Run this command in your terminal of choice to send text messages to the registered numbers in the Textsend app or a specified recipient.
 ```sh
 $ python broadcast.py -port 7011 -recipient name -message custom message
 ```
