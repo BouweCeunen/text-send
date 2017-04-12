@@ -12,12 +12,17 @@ Feel free to let me know if something isn't working as it should at bouwe.ceunen
 
 ### Get it running (macOS, Windows, Linux)
 
-Run this command in your terminal of choice to send text messages to the registered numbers in the Textsend app or a specified recipient.
+Run this command in your terminal of choice to send text messages to a specified recipient.
 ```sh
 $ python broadcast.py -port 7011 -recipient name -message custom message
 ```
 
-This will run the python script and broadcast the custom message to the default port 7011, which is the same port specified on the Textsend app (can be changed). This port has to be the same on your Textsend app in order to work. Note that anyone in your network can send UDP messages on that specific port and will receive those messages if they are listening in on that port.
+If you want to send messages to the registered numbers in the Textsend app leave the -recipient blank.
+```sh
+$ python broadcast.py -port 7011 -recipient -message custom message
+```
+
+This will run the python script and broadcast the custom message to the default port 7011, which is the same port specified on the Textsend app (can be changed) to a specific recipient or to the registered numbers in the Textsend app. This port has to be the same on your Textsend app in order to work. Note that anyone in your network can send UDP messages on that specific port and will receive those messages if they are listening in on that port.
 
 ### Textsend app
 
