@@ -14,7 +14,7 @@ Feel free to let me know if something isn't working as it should at bouwe.ceunen
 
 Run this command in your terminal of choice to send text messages to the registered numbers in the Textsend app.
 ```sh
-$ python broadcast.py 7011 _ "custom message"
+$ python broadcast.py -port UDPReceivePort -recipient name -message custom message
 ```
 
 This will run the python script and broadcast the custom message to the default port 7011, which is the same port specified on the Textsend app (can be changed). This port has to be the same on your Textsend app in order to work. Note that anyone in your network can send UDP messages on that specific port and will receive those messages if they are listening in on that port.
