@@ -1,6 +1,6 @@
 # Textsend - Send text messages through your phone with UDP messages
 
-Textsend will allow you to send textmessages directly from received UDP broadcasted messages. This can be used if you have a spare Android phone and have a need for sending text messages to your phone in case you have a custom burglary alarm or custom made smoke detector with for example a raspberry pi. It uses the Textsend app along with a UDP broadcast script to run on your computer. The Android application receives the broadcasted UDP messages in your network over a specific port which in turn will be sent to specified numbers. 
+Textsend will allow you to send text messages directly from received UDP broadcasted messages. This can be used if you keep your wifi on and want to send text messages from you phone. Make sure to check Textcast (https://play.google.com/store/apps/details?id=com.bouweceunen.textcast) to display text messages on your computer in that way you wont need to touch your phone to send and receive text messages! It uses the Textsend app along with a UDP broadcast script to run on your computer. The Android application receives the broadcasted UDP messages in your network over a specific port which in turn will be sent to specified numbers. 
 
 Feel free to let me know if something isn't working as it should at bouwe.ceunen@gmail.com
 
@@ -10,11 +10,12 @@ Feel free to let me know if something isn't working as it should at bouwe.ceunen
 
 ### Get it running (macOS, Windows, Linux)
 
-Run this command in your terminal of choice.
+Run this command in your terminal of choice to send text messages to the registered numbers in the Textsend app.
 ```sh
-$ python broadcast.py 7011 "custom message"
+$ python broadcast.py 7011 _ "custom message"
 ```
-This will run the python script and broadcast the custom message to UDP port 7011, which is the same port specified on the Textsend app (can be changed). This port has to be the same on your Textsend app in order to work. Note that anyone in your network can send UDP messages on that specific port and will receive those messages if they are listening in on that port.
+
+This will run the python script and broadcast the custom message to the default port 7011, which is the same port specified on the Textsend app (can be changed). This port has to be the same on your Textsend app in order to work. Note that anyone in your network can send UDP messages on that specific port and will receive those messages if they are listening in on that port.
 
 ### Textsend app
 
