@@ -1,6 +1,8 @@
 # Textsend - Send text messages through your phone with UDP messages
 
-Textsend will allow you to send text messages directly from received UDP broadcasted messages. This can be used if you keep your wifi on and want to send text messages from you phone. Make sure to check Textcast (https://play.google.com/store/apps/details?id=com.bouweceunen.textcast) to display text messages on your computer in that way you wont need to touch your phone to send and receive text messages! It uses the Textsend app along with a UDP broadcast script to run on your computer. The Android application receives the broadcasted UDP messages in your network over a specific port which in turn will be sent to specified numbers. 
+Textsend will allow you to send text messages directly from received UDP broadcasted messages. This can be used if you keep your wifi on and want to send text messages from you phone. It uses the Textsend app along with a UDP broadcast script to run on your computer. The Android application receives the broadcasted UDP messages in your network over a specific port which in turn will be sent to specified numbers. 
+
+Make sure to check Textcast (https://play.google.com/store/apps/details?id=com.bouweceunen.textcast) to display text messages on your computer in that way you wont need to touch your phone to send and receive text messages! 
 
 Feel free to let me know if something isn't working as it should at bouwe.ceunen@gmail.com
 
