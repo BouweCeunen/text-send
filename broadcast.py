@@ -11,7 +11,7 @@ class SMSSender:
 	def __init__(self):
 		self.directory = os.path.abspath(__file__).rsplit('/',1)[0] + '/' 
 		if len(sys.argv) > 1:
-			# UDPBroadcastPort = 4090
+			# UDPBroadcastPort = 7011
 
 			param = self.get_parameters(sys.argv)
 			self.UDPBroadcast(int(param[0]),str(param[1]),str(param[2]))
